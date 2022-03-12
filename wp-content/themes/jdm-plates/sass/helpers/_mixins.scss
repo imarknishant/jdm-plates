@@ -1,0 +1,189 @@
+// All Mixins here
+@mixin box-sizing($type: border-box) {
+    box-sizing: $type;
+    -webkit-box-sizing: $type;
+    -moz-box-sizing: $type;
+}
+
+//links
+@mixin is_link ($link, $hover, $active: $hover) {
+    & {
+        color: $link;
+        &:hover {
+            color: $hover;
+        }
+        &:active,
+        &:focus {
+            color: $active;
+        }
+    }
+}
+
+// Border Radius
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
+
+// Appearance
+@mixin appearance ($value) {
+    -webkit-appearance: $value;
+    -moz-appearance: $value;
+    appearance: $value;
+}
+
+// Regular transition
+@mixin transition($what: all, $time: 0.3s, $how: ease-in-out, $delayed:0s) {
+    -webkit-transition: $what $time $how $delayed;
+    transition: $what $time $how $delayed;
+}
+
+// Cross browser opacity
+@mixin opacity($opacity) {
+    opacity: $opacity;
+    $opacity-ie: $opacity * 100;
+    filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+// Cross browser Placeholders
+@mixin placeholder {
+    &::-webkit-input-placeholder {
+        @content;
+    }
+    &:-moz-placeholder {
+        @content;
+        @include opacity(1);
+    }
+    &::-moz-placeholder {
+        @content;
+        @include opacity(1);
+    }
+    &:-ms-input-placeholder {
+        @content;
+    }
+}
+
+// Absolute cover
+@mixin cover-all($position:absolute) {
+    position: $position;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+// Absolute center
+@mixin absolutecenter($axis: "both") {
+    position: absolute;
+    @if $axis=="y" {
+        top: 50%;
+        @include translate (0, -50%);
+    }
+    @if $axis=="x" {
+        left: 50%;
+        @include translate (-50%, 0);
+    }
+    @if $axis=="both" {
+        top: 50%;
+        left: 50%;
+        @include translate (-50%, -50%);
+    }
+}
+
+// Media queries
+@mixin breakpoint($point) {
+    @if $point==xx-large {
+        @media only screen and (min-width: 1600px) {
+            @content;
+        }
+    }
+    @else if $point==x-large {
+        @media only screen and (max-width: 1599px) {
+            @content;
+        }
+    }
+    @else if $point==desktop {
+        @media only screen and (max-width: 1569px) {
+            @content;
+        }
+    }
+    @else if $point==desktop-small {
+        @media only screen and (max-width: 1400px) {
+            @content;
+        }
+    }
+    @else if $point==normal {
+        @media only screen and (max-width: 1200px) {
+            @content;
+        }
+    }
+    @else if $point==ipad {
+        @media only screen and (max-width: 992px) {
+            @content;
+        }
+    }
+    @else if $point==mobile {
+        @media only screen and (max-width: 767px) {
+            @content;
+        }
+    }
+    @else if $point==mobile-s {
+        @media only screen and (max-width: 576px) {
+            @content;
+        }
+    }
+}
+
+//Circle
+@mixin circle($size) {
+    height: $size;
+    width: $size;
+    @include border-radius(100%);
+}
+
+//px to em
+//$base-font-size: 16; // base font size for em to px conversion
+@function em($pixels, $context: $base-font-size) {
+    @return #{$pixels/$context}em;
+}
+
+//Background properties
+//Usage @include bg-cover(cover, top left);
+@mixin bg-cover($size: cover, $position: center) {
+    background-repeat: no-repeat;
+    background-position: $position;
+    background-size: $size;
+}
+
+// gradients
+// usage @include linearGradient(#cccccc, #666666);
+@mixin linearGradient($top, $bottom) {
+    background: $top;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, $top 0%, $bottom 100%);
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(top, $top 0%, $bottom 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(top, $top 0%, $bottom 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, $top 0%, $bottom 100%);
+    /* W3C */
+}
+
+// The 'flex' shorthand
+// - applies to: flex items
+// <positive-number>, initial, auto, or none
+@mixin flex($align:center, $justify:space-between, $wrap:wrap) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}
+
+@mixin content-limit($line) {
+    white-space: normal;
+    display: -webkit-box !important;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

@@ -1,0 +1,42 @@
+/*!
+CSS Document
+Project Name: Endless
+Project Description:
+Written By: iMark Infotech - Varun Sharma
+Created On: 17-11-2021
+Last Modified:
+*/
+// Vendors and external stylesheets
+@import "vendors/bootstrap";
+@import "vendors/bootstrapIcons";
+@import "vendors/font-awesome";
+@import "vendors/mCustomScrollbar";
+@import "vendors/swiper";
+@import "vendors/aos";
+@import "vendors/slick";
+
+// Sass utilities
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// Base stuff
+@import "base/reset";
+@import "base/typography";
+
+// Layout related stylesheets
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
+@import "layout/forms";
+@import "layout/style";
+
+// Components and modules
+@import "components/buttons";
+
+// Page-specific stylesheets
+@import "pages/home";
+
+// Themes
+@import "themes/theme";
+@import "themes/admin";

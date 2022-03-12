@@ -1,0 +1,138 @@
+footer#footer {
+    padding: 70px 0 0px 0;
+    background-color: #565656;
+    @include breakpoint(desktop) {
+        padding: 30px 0 0px 0;
+    }
+    .logo {
+        margin-bottom: 20px;
+        @include breakpoint(desktop) {
+            margin-bottom: 15px;
+        }
+    }
+    p {
+        color: $w;
+        line-height: 1.8;
+        font-size: 14px;
+    }
+    .heading {
+        h6 {
+            font-weight: 600;
+            font-size: 14px;
+            color: $w;
+            margin-bottom: 10px;
+        }
+    }
+    .heading.head {
+        margin-top: 20px;
+    }
+    .heading.head.mrg-btm {
+        h6 {
+            margin-bottom: 2px;
+        }
+    }
+    ul {
+        li {
+            font-size: 14px;
+            margin-bottom: 6px;
+            padding-left: 10px;
+            a {
+                color: $w;
+                font-family: $sans-serif;
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                    color: $color-brand;
+                }
+            }
+        }
+    }
+    ul.first {
+        li {
+            color: $w;
+            padding-left: 0;
+        }
+    }
+    figure.visa {
+        display: grid;
+        img {
+            width: auto;
+            height: auto;
+        }
+    }
+    ul.social {
+        display: flex;
+        align-items: center;
+        li {
+            font-size: 16px;
+            margin-right: 10px;
+            padding-left: 0;
+            width: 32px;
+            height: 32px;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 4;
+            border-radius: 4px;
+            &:first-child {
+                background-color: $color-facebook;
+            }
+            &:nth-of-type(2) {
+                background-color: #00aced;
+            }
+            &:nth-of-type(3) {
+                background-color: $color-instagram;
+            }
+            &:nth-of-type(4) {
+                background-color: $color-linkedin;
+            }
+            &:nth-of-type(5) {
+                background-color: $color-google;
+            }
+            &:last-child {
+                background-color: #cb2027;
+            }
+            a {
+                color: $w;
+                @include transition;
+                &:hover {
+                    color: #04d9ff;
+                }
+            }
+        }
+    }
+    h6 {
+        color: $w;
+        font-size: 14px;
+    }
+    .call {
+        a {
+            color: #ffcc00;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 20px;
+        }
+    }
+    .copyright {
+        background-color: $b;
+        padding: 18px 0;
+        margin-top: 25px;
+        @include breakpoint(desktop) {
+            padding: 10px 0;
+        }
+        p {
+            margin-bottom: 0;
+            font-size: 10px;
+            padding-left: 180px;
+            @include breakpoint(ipad) {
+                padding-left: 0;
+                text-align: center;
+            }
+        }
+    }
+    @include breakpoint(ipad) {
+        .col-lg-3 {
+            margin-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@font-face {
+    font-family: 'UKNumberPlate';
+    src: url('../fonts/UKNumberPlate.woff2') format('woff2'), url('../fonts/UKNumberPlate.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+html {
+    font-size: rem(16px);
+}
+
+@media screen and (min-width:1500px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+body {
+    font-family: $sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: rem(16px);
+    color: $color-text;
+    background-color: #4f4f4f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0 0 rem(20px);
+    color: $color-heading;
+}
+
+h1 {
+    font-size: rem(24px);
+    font-family: $sans-serif;
+    @include breakpoint(desktop) {
+        font-size: rem(22px);
+    }
+}
+
+h2 {
+    font-size: rem(65px);
+    font-family: $sans-serif;
+    @include breakpoint(desktop) {
+        font-size: rem(45px);
+    }
+    @include breakpoint(desktop-small) {
+        font-size: rem(40px);
+    }
+}
+
+h3 {
+    font-size: rem(45px);
+    @include breakpoint(desktop) {
+        font-size: rem(30px);
+    }
+    @include breakpoint(desktop-small) {
+        font-size: rem(26px);
+    }
+}
+
+h4 {
+    font-size: rem(26px);
+    @include breakpoint(desktop) {
+        font-size: rem(22px);
+    }
+    @include breakpoint(desktop-small) {
+        font-size: rem(19px);
+    }
+}
+
+h5 {
+    font-size: rem(24px);
+    @include breakpoint(desktop) {
+        font-size: rem(20px);
+    }
+    @include breakpoint(desktop-small) {
+        font-size: rem(17px);
+    }
+}
+
+h6 {
+    font-size: rem(18px);
+    @include breakpoint(desktop) {
+        font-size: rem(16px);
+        margin-bottom: 14px;
+    }
+    @include breakpoint(desktop-small) {
+        font-size: rem(16px);
+        margin-bottom: 12px;
+    }
+}
+
+p {
+    font-size: rem(18px);
+    font-family: $sans-serif;
+    line-height: 1.6;
+    margin-bottom: rem(30px);
+    color: $color-text;
+    @include breakpoint(desktop) {
+        margin-bottom: rem(20px);
+        font-size: rem(16px);
+    }
+    @include breakpoint(desktop-small) {
+        font-size: rem(14px);
+    }
+    strong {
+        font-family: $sans-serif;
+        font-weight: 700;
+    }
+    a {
+        color: $color-primary;
+        &:hover,
+        &:focus {
+            color: $color-secondary;
+        }
+    }
+}

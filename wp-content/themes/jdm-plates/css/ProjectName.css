@@ -1,0 +1,1231 @@
+/*For Developer Use*/
+/*
+@font-face {
+font-family: 'Conv_motorway';
+src: url('fonts/motorway.eot');
+src: local('☺'), url('../fonts/motorway.woff') format('woff'), url('../fonts/motorway.ttf') format('truetype'), url('../fonts/motorway.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+*/
+
+@font-face {
+    font-family: 'Vehicle JNL';
+    src: url('../fonts/vehicleobliquejnl.woff2') format('woff2'), url('../fonts/vehicleobliquejnl.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vehicle JNL';
+    src: url('../fonts/vehiclejnl.woff2') format('woff2'), url('../fonts/vehiclejnl.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.home-banner .text-center>figure>span {}
+
+.home-banner .text-center>figure {
+    height: auto;
+}
+/***** New Home Css *****/
+
+.mainContainer .img-text {
+    user-select: none;
+}
+
+.mainContainer .img-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 149px;
+    font-weight: 700;
+    width: 100%;
+    font-family: UKNumberPlate;
+    padding: 10px 20px;
+    color: #000;
+}
+
+.upper-div .mainContainer {
+    min-height: 100%;
+    margin-bottom: 30px;
+}
+
+.uk-number-plates .mainContainer .img-text {
+    font-size: 149px;
+}
+
+.imported-car-number-plates .mainContainer .img-text {
+    font-size: 130px;
+}
+
+.default_class .mainContainer .img-text {
+    font-size: 149px;
+}
+
+.uk-6-character-399x101 .upper-div .mainContainer {
+    min-height: 136px;
+}
+
+.uk-6-character-which-includes-a-No-1-363x101 .upper-div .mainContainer {
+    min-height: 148px;
+    min-width: 580px;
+}
+
+.uk-6-character-which-includes-a-No-1-363x101 .upper-div .mainContainer img {
+    max-width: 88%;
+}
+
+.uk-6-character-which-includes-a-No-1-363x101_default_class .mainContainer img {
+    max-width: 88%;
+}
+
+.uk-6-character-which-includes-a-No-1-363x101_default_class .mainContainer {
+    min-width: 580px;
+}
+
+.uk-7-character-460x101 .upper-div .mainContainer {
+    min-height: 148px;
+    margin-bottom: 30px;
+}
+
+.uk-5-character-338x101 .upper-div .mainContainer {
+    min-height: 152px;
+    min-width: 520px;
+}
+
+.imported-6-character-with-no-1-320x87 .upper-div .mainContainer,
+.imported-7-character-408x87 .upper-div .mainContainer {
+    min-height: 128px;
+}
+
+.imported-5-character-300x87 .upper-div .mainContainer {
+    min-height: 125px;
+}
+
+.uk-7-character-which-includes-a-no-1-225x199 .mainContainer {
+    min-height: 152px;
+    min-width: 400px;
+}
+
+.uk-7-character-which-includes-a-no-1-225x199 .mainContainer img {
+    max-width: 77%;
+}
+
+.uk-7-character-which-includes-a-no-1-225x199_default_class .mainContainer {
+    min-width: 400px;
+}
+
+.uk-7-character-which-includes-a-no-1-225x199_default_class .mainContainer img {
+    max-width: 77%;
+}
+
+.uk-7-character-which-includes-a-no-1-225x199_default_class .mainContainer .img-text {
+    font-size: 149px;
+    line-height: 135px;
+}
+
+.uk-7-character-which-includes-a-no-1-225x199 .mainContainer .img-text {
+    font-size: 149px;
+    line-height: 135px;
+}
+
+.imported-5-character-with-no-1-266x87 .upper-div .mainContainer,
+.imported-6-character-354x87 .upper-div .mainContainer {
+    min-height: 130px;
+}
+
+.uk-7-character-which-includes-a-No-1-424x101 .upper-div .mainContainer {
+    min-height: 150px;
+    min-width: 665px;
+}
+
+.uk-7-character-which-includes-a-No-1-424x101 .upper-div .mainContainer img {
+    max-width: 89%;
+}
+
+.uk-7-character-460x101_default_class .mainContainer .img-text {
+    font-size: 149px;
+    min-height: 185px;
+}
+
+.uk-7-character-which-includes-a-No-1-424x101_default_class .mainContainer .img-text {
+    font-size: 149px;
+    min-height: 180px;
+}
+
+.uk-5-or-6-character-199x199_default_class .mainContainer .img-text {
+    font-size: 149px;
+    line-height: 135px;
+}
+
+.uk-7-character-255x199_default_class .mainContainer .img-text {
+    font-size: 149px;
+    line-height: 135px;
+}
+
+.uk-6-character-399x101_default_class .mainContainer .img-text {
+    font-size: 149px;
+    min-height: 185px;
+}
+
+.profiled-motorcycle .mainContainer .img-text {
+    font-size: 130px;
+}
+
+.uk-6-character-which-includes-a-No-1-363x101_default_class .mainContainer .img-text {
+    font-size: 149px;
+    min-height: 184px;
+}
+
+.imported-5-character-with-no-1-266x87_default_class .mainContainer {
+    min-width: 445px;
+}
+
+.imported-5-character-with-no-1-266x87_default_class .mainContainer .img-text {
+    font-size: 130px;
+}
+
+.uk-5-character-338x101_default_class .mainContainer .img-text {
+    min-height: 182px;
+}
+
+.uk-7-character-460x101 .upper-div .mainContainer .img-text {
+    font-size: 149px;
+}
+
+.import-size-1-330x165 .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 105px;
+}
+
+.imported-5-character-with-no-1-266x87 .upper-div .mainContainer {
+    min-width: 445px;
+}
+
+.imported-5-character-with-no-1-266x87 .upper-div .mainContainer .img-text {
+    font-size: 130px;
+}
+
+.uk-5-or-6-character-199x199 .upper-div .mainContainer {
+    min-height: 148px;
+}
+
+.uk-5-or-6-character-199x199 .upper-div .mainContainer .img-text {
+    font-size: 149px;
+    line-height: 135px;
+}
+
+.imported-5-or-6-character-172x156 .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 105px;
+}
+
+.imported-7-character-408x87 .upper-div .mainContainer .img-text {
+    font-size: 130px;
+}
+
+.imported-5-character-300x87 .upper-div .mainContainer .img-text {
+    font-size: 130px;
+}
+
+.imported-6-character-with-no-1-320x87 .upper-div .mainContainer {
+    min-width: 535px;
+}
+
+.imported-6-character-with-no-1-320x87 .upper-div .mainContainer img {
+    max-width: 85%;
+}
+
+.imported-6-character-with-no-1-320x87_default_class .mainContainer {
+    min-width: 510px;
+}
+
+.imported-6-character-with-no-1-320x87_default_class .mainContainer img {
+    max-width: 85%;
+}
+
+.imported-6-character-with-no-1-320x87 .upper-div .mainContainer .img-text {
+    font-size: 130px;
+}
+
+.imported-6-character-354x87 .upper-div .mainContainer .img-text {
+    font-size: 130px;
+}
+
+.imported-6-character-with-no-1-320x87_default_class .mainContainer .img-text {
+    font-size: 130px;
+}
+
+.imported-7-character-226x156 .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 105px;
+}
+
+.moto-7-character-228x164 .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 112px;
+}
+
+.moto-7-character-with-no-1-194x164 .upper-div .mainContainer {
+    min-width: 325px;
+}
+
+.moto-7-character-with-no-1-194x164 .upper-div .mainContainer img {
+    max-width: 84%;
+}
+
+.moto-7-character-with-no-1-194x164 .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 112px;
+}
+
+.moto-5-character-174x164 .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 112px;
+}
+
+.moto-7-character-with-no-1-194x164_default_class .upper-div .mainContainer {
+    min-width: 325px;
+}
+
+.moto-7-character-with-no-1-194x164_default_class .upper-div .mainContainer img {
+    max-width: 84%;
+}
+
+.moto-7-character-with-no-1-194x164_default_class .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 112px;
+}
+
+.moto-5-character-174x164_default_class .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 112px;
+}
+
+.moto-7-character-228x164_default_class .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 112px;
+}
+
+.profiled-5-character-174x164-profiled-1_default_class .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 112px;
+}
+
+.import-size-3-303x152 .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 105px;
+}
+
+.import-size-1-330x165_default_class .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 105px;
+}
+
+.import-size-3-303x152_default_class .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 105px;
+}
+
+.imported-7-character-408x87_default_class .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 105px;
+}
+
+.imported-7-character-226x156_default_class .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 105px;
+}
+
+.imported-6-character-354x87_default_class .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 105px;
+}
+
+.imported-5-or-6-character-172x156_default_class .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 105px;
+}
+
+.imported-5-character-300x87_default_class .upper-div .mainContainer .img-text {
+    font-size: 130px;
+}
+
+.profiled-5-character-174x164-profiled-1 .upper-div .mainContainer .img-text {
+    font-size: 130px;
+    line-height: 112px;
+}
+
+.uk-7-character-which-includes-a-No-1-424x101 .upper-div .mainContainer .img-text {
+    font-size: 149px;
+}
+
+.uk-6-character-which-includes-a-No-1-363x101 .upper-div .mainContainer .img-text {
+    font-size: 149px;
+}
+
+.uk-6-character-399x101 .upper-div .mainContainer .img-text {
+    font-size: 149px;
+}
+
+.uk-7-character-255x199 .upper-div .mainContainer .img-text {
+    font-size: 149px;
+    line-height: 135px;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.how-it-works {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.style3d_gel {
+    text-shadow: 0 1px 0 #343a40, 0 2px 0 #343a40, 0 3px 0 #343a40, 0 4px 0 #343a40, 0 5px 0 #343a40, 0 6px 1px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 30%), 0 3px 5px rgb(0 0 0 / 20%), 0 5px 10px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 20%), 0 20px 20px rgb(0 0 0 / 15%);
+}
+
+.style4d_3mm_gel,
+.style4d_3mm {
+    text-shadow: 0 1px 0 #343a40, 0 2px 0 #343a40, 0 3px 0 #343a40, 0 4px 0 #343a40, 0 5px 0 #343a40, 0 8px 1px rgb(0 0 0 / 10%), 0 0 6px rgb(0 0 0 / 10%), 0 1px 4px rgb(0 0 0 / 30%), 0 3px 5px rgb(0 0 0 / 20%), 0 5px 10px rgb(0 0 0 / 22%), 0 10px 10px rgb(0 0 0 / 20%), 0 20px 21px rgb(0 0 0 / 12%);
+}
+
+.style4d_5mm_gel,
+.style4d_5mm {
+    text-shadow: 0 3px 0 #343a40, 0 7px 0 #343a40, 0 4px 0 #343a40, 0 4px 0 #343a40, 0 8px 0 #343a40, 0 8px 0px rgb(0 0 0 / 10%), 0 0 8px rgb(0 0 0 / 10%), 0 1px 4px rgb(0 0 0 / 30%), 0 3px 5px rgb(0 0 0 / 20%), 0 5px 10px rgb(0 0 0 / 22%), 0 10px 10px rgb(0 0 0 / 20%), 0 20px 21px rgb(0 0 0 / 12%);
+}
+/*
+.style3d_gel {
+text-shadow: 0 1px 0 #ccc,
+0 2px 0 #c9c9c9,
+0 3px 0 #bbb,
+0 4px 0 #b9b9b9,
+0 5px 0 #aaa,
+0 6px 1px rgba(0, 0, 0, .1),
+0 0 5px rgba(0, 0, 0, .1),
+0 1px 3px rgba(0, 0, 0, .3),
+0 3px 5px rgba(0, 0, 0, .2),
+0 5px 10px rgba(0, 0, 0, .25),
+0 10px 10px rgba(0, 0, 0, .2),
+0 20px 20px rgba(0, 0, 0, .15);
+}
+*/
+/*
+.style4d_3mm_gel,
+.style4d_3mm {
+text-shadow: 0 1px 0 #979797,
+0 2px 0 #999999,
+0 3px 0 #999996,
+0 4px 0 #8d8d8d,
+0 5px 0 #222222,
+0 8px 1px rgba(0, 0, 0, .1),
+0 0 6px rgba(0, 0, 0, .1),
+0 1px 4px rgba(0, 0, 0, .3),
+0 3px 5px rgba(0, 0, 0, .2),
+0 5px 10px rgba(0, 0, 0, .22),
+0 10px 10px rgba(0, 0, 0, .2),
+0 20px 21px rgba(0, 0, 0, .12);
+
+}
+.style4d_5mm_gel,
+.style4d_5mm {
+text-shadow: 0 3px 0 #979797, 0 7px 0 #999999, 0 4px 0 #999996, 0 4px 0 #8d8d8d, 0 8px 0 #222222, 0 8px 0px rgb(0 0 0 / 10%), 0 0 8px rgb(0 0 0 / 10%), 0 1px 4px rgb(0 0 0 / 30%), 0 3px 5px rgb(0 0 0 / 20%), 0 5px 10px rgb(0 0 0 / 22%), 0 10px 10px rgb(0 0 0 / 20%), 0 20px 21px rgb(0 0 0 / 12%);
+}
+*/
+/* image-Check-Arrow */
+
+.home-banner .fixed-sidebar .plate-list ul li .under .no-plate figure {
+    position: relative;
+    overflow: inherit;
+}
+
+.home-banner .fixed-sidebar .plate-list ul li .under .no-plate .active-text figure:before,
+.home-banner .fixed-sidebar .plate-list ul li .under .no-plate .active-text figure:after {
+    content: '';
+    position: absolute;
+}
+
+.home-banner .fixed-sidebar .plate-list ul li .under .no-plate .active-text figure:after {
+    right: -3px;
+    top: -7px;
+    width: 6px;
+    height: 15px;
+    display: block;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    border-color: white;
+    transform: rotate(45deg);
+}
+
+.home-banner .fixed-sidebar .plate-list ul li .under .no-plate .active-text figure:before {
+    right: -12px;
+    top: -10px;
+    background: #86c06a;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+/* Cart-Page-Style */
+
+.cart_seaction {
+    padding: 72px 0;
+}
+
+.cart_seaction header.entry-header {
+    margin-bottom: 25px;
+}
+
+.cart_seaction h1.entry-title {
+    /* color: #fff; */
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.cart_seaction .woocommerce-cart-form {
+    overflow: auto;
+}
+
+.cart_seaction .shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents {
+    width: 100%;
+    min-width: 800px;
+}
+
+.cart_seaction .shop_table.shop_table_responsive.cart thead tr th {
+    border: 1px solid #000;
+    /* color: #fff; */
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cart_seaction .shop_table.shop_table_responsive.cart tbody tr td {
+    border: 1px solid #000;
+    /* color: #fff; */
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cart_seaction .shop_table.shop_table_responsive.cart tbody tr td.product-thumbnail img {
+    width: 72px;
+    height: 72px;
+}
+
+.cart_seaction .shop_table.shop_table_responsive.cart .product-name a {
+    /* color: #fff; */
+}
+
+.cart_seaction .shop_table.shop_table_responsive.cart .product-name a:hover {
+    color: #ffa500;
+}
+
+.product-quantity .quantity {
+    display: flex;
+    align-items: center;
+}
+
+.cart_seaction .shop_table.shop_table_responsive.cart tbody tr td.product-quantity .quantity input {
+    width: 120px;
+    margin-left: 15px;
+}
+
+.cart_seaction .shop_table.shop_table_responsive.cart tbody tr td input {
+    border: 1px solid #000;
+    /* color: #fff; */
+    background: transparent;
+    width: 100%;
+    border-radius: 1px;
+    padding: 1px 12px;
+    height: 42px;
+    box-shadow: none;
+    outline: none;
+}
+
+.product-remove a.remove {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background: red;
+    display: block;
+    text-align: center;
+    line-height: 32px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.product-remove a.remove:hover {
+    background: #ffa500;
+}
+
+.cart_seaction .shop_table.shop_table_responsive.cart tbody tr td .coupon {
+    display: flex;
+    align-items: center;
+}
+
+.cart_seaction .shop_table.shop_table_responsive.cart tbody tr td .coupon input {
+    width: 240px;
+    margin: 0 15px;
+}
+
+.cart-collaterals {
+    margin-top: 35px;
+}
+
+.cart-collaterals .cart_totals h2 {
+    font-size: 36px;
+    font-weight: 600;
+    /* color: #fff; */
+    margin-bottom: 15px;
+}
+
+.cart-collaterals .shop_table.shop_table_responsive th {
+    /* color: #fff; */
+    border: 1px solid #000;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cart-collaterals .shop_table.shop_table_responsive td {
+    /* color: #fff;*/
+    border: 1px solid #000;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wc-proceed-to-checkout {
+    margin-top: 22px;
+}
+
+.cart_seaction .button {
+    background: #ffa500;
+    border: 1px solid #ffa500;
+    color: #fff;
+    padding: 0 32px;
+    text-align: center;
+    line-height: 2.3;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.cart_seaction .button:hover {
+    background: #000;
+    border: 1px solid #000;
+}
+
+.cart_update.up {
+    text-align: right;
+}
+
+.cart_seaction .shop_table.shop_table_responsive.cart tbody tr td dt,
+.cart_seaction .shop_table.shop_table_responsive.cart tbody tr td dd {
+    font-weight: 700;
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cart_seaction .shop_table.shop_table_responsive.cart tbody tr td dt p,
+.cart_seaction .shop_table.shop_table_responsive.cart tbody tr td dd p {
+    /* color: #fff; */
+    margin: 0;
+}
+
+.cart_seaction .shop_table.shop_table_responsive.cart tbody tr td dd p {
+    font-weight: 400;
+}
+
+.woocommerce-cart {
+    background-color: #fff;
+}
+/* Cart-Page-Style */
+/* #text-style {
+position: absolute;
+z-index: -1px;
+opacity: 0;
+}
+*/
+
+.first-img-plate {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.second-img-plate img,
+.first-img-plate img {
+    border-radius: 17px;
+}
+/* @media only screen and (max-width: 1023px) {
+#text-style-change {
+overflow-x: auto;
+overflow-y: hidden;
+}
+#text-style {
+min-width: 752px;
+}
+} */
+/* @media only screen and (max-width: 767px) {
+.mainContainer .img-text {
+font-size: 10vh;
+line-height: 9.5vh;
+}
+}
+
+@media only screen and (max-width: 479px) {
+.mainContainer .img-text {
+font-size: 18vw;
+line-height: 6.4vh;
+}
+} */
+/* @media screen and (min-device-width:640px) and (max-device-width: 767px) {
+.mainContainer .img-text {
+    padding: 0;
+}
+.uk-7-character-460x101 .upper-div .mainContainer img {
+    max-width: 90%;
+}
+.uk-7-character-460x101 .upper-div .mainContainer .img-text {
+    font-size: 129px;
+}
+} */
+
+@media only screen and (max-width:767px) {
+    .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 100%;
+        padding: 0 5px;
+    }
+    .default_class .mainContainer .img-text {
+        font-size: 21vw;
+    }
+    .uk-number-plates .mainContainer .img-text {
+        font-size: 21vw;
+    }
+    .imported-car-number-plates .mainContainer .img-text {
+        font-size: 21vw;
+    }
+    .uk-7-character-460x101 .upper-div .mainContainer {
+        min-height: auto;
+        margin-bottom: 30px;
+    }
+    .uk-7-character-460x101 .upper-div .mainContainer img {
+        max-width: 91vw;
+    }
+    .uk-7-character-460x101 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 100%;
+    }
+    .uk-7-character-460x101_default_class .mainContainer img {
+        max-width: 91vw;
+    }
+    .uk-7-character-460x101_default_class .mainContainer .img-text {
+        font-size: 21vw;
+        min-height: auto;
+    }
+    .uk-7-character-which-includes-a-No-1-424x101 .upper-div .mainContainer {
+        min-height: auto;
+        min-width: auto;
+    }
+    .uk-7-character-which-includes-a-No-1-424x101 .upper-div .mainContainer img {
+        max-width: 86%;
+    }
+    .uk-7-character-which-includes-a-No-1-424x101 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+    }
+    .uk-7-character-which-includes-a-No-1-424x101_default_class .mainContainer img {
+        max-width: 83vw;
+    }
+    .uk-7-character-which-includes-a-No-1-424x101_default_class .mainContainer .img-text {
+        font-size: 21vw;
+        min-height: auto;
+    }
+    .uk-6-character-399x101 .upper-div .mainContainer {
+        min-height: auto;
+    }
+    .uk-6-character-399x101 .upper-div .mainContainer img {
+        max-width: 79vw;
+    }
+    .uk-6-character-399x101 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+    }
+    .uk-6-character-399x101_default_class .mainContainer img {
+        max-width: 79vw;
+    }
+    .uk-6-character-399x101_default_class .mainContainer .img-text {
+        font-size: 21vw;
+        min-height: auto;
+        line-height: 84px;
+    }
+    .uk-6-character-which-includes-a-No-1-363x101 .upper-div .mainContainer {
+        min-height: auto;
+        min-width: 100%;
+    }
+    .uk-6-character-which-includes-a-No-1-363x101 .upper-div .mainContainer img {
+        max-width: 76%;
+    }
+    .uk-6-character-which-includes-a-No-1-363x101 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+    }
+    .uk-6-character-which-includes-a-No-1-363x101_default_class .mainContainer {
+        min-width: 100%;
+    }
+    .uk-6-character-which-includes-a-No-1-363x101_default_class .mainContainer img {
+        max-width: 74vw;
+    }
+    .uk-6-character-which-includes-a-No-1-363x101_default_class .mainContainer .img-text {
+        font-size: 21vw;
+        min-height: auto;
+        line-height: 100%;
+    }
+    .uk-5-character-338x101 .upper-div .mainContainer {
+        min-height: auto;
+        min-width: auto;
+    }
+    .uk-5-character-338x101 .mainContainer img {
+        max-width: 68vw;
+    }
+    .uk-5-character-338x101 .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 100%;
+    }
+    .uk-5-character-338x101_default_class .mainContainer img {
+        max-width: 68vw;
+    }
+    .uk-5-character-338x101_default_class .mainContainer .img-text {
+        font-size: 21vw;
+        min-height: auto;
+        line-height: 100%;
+    }
+    .imported-6-character-with-no-1-320x87 .upper-div .mainContainer,
+    .imported-7-character-408x87 .upper-div .mainContainer {
+        min-height: auto;
+    }
+    .imported-5-character-with-no-1-266x87 .upper-div .mainContainer,
+    .imported-6-character-354x87 .upper-div .mainContainer {
+        min-height: auto;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .uk-7-character-255x199 .upper-div .mainContainer img {
+        max-width: 51vw;
+    }
+    .uk-7-character-255x199 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 89%;
+    }
+    .uk-7-character-255x199_default_class .mainContainer img {
+        max-width: 50vw;
+    }
+    .uk-7-character-255x199_default_class .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 89%;
+    }
+    .uk-7-character-which-includes-a-no-1-225x199 .mainContainer {
+        min-height: auto;
+        min-width: 250px;
+    }
+    .uk-7-character-which-includes-a-no-1-225x199 .mainContainer img {
+        max-width: 45vw;
+    }
+    .uk-7-character-which-includes-a-no-1-225x199 .mainContainer .img-text {
+        font-size: 22vw;
+        line-height: 85%;
+    }
+    .uk-7-character-which-includes-a-no-1-225x199_default_class .mainContainer {
+        min-width: 250px;
+    }
+    .uk-7-character-which-includes-a-no-1-225x199_default_class .mainContainer img {
+        max-width: 45vw;
+    }
+    .uk-7-character-which-includes-a-no-1-225x199_default_class .mainContainer .img-text {
+        font-size: 22vw;
+        line-height: 85%;
+    }
+    .uk-5-or-6-character-199x199 .upper-div .mainContainer {
+        min-height: auto;
+    }
+    .uk-5-or-6-character-199x199 .upper-div .mainContainer img {
+        max-width: 40vw;
+    }
+    .uk-5-or-6-character-199x199 .upper-div .mainContainer .img-text {
+        font-size: 22vw;
+        line-height: 85%;
+    }
+    .uk-5-or-6-character-199x199_default_class .mainContainer img {
+        max-width: 40vw;
+    }
+    .uk-5-or-6-character-199x199_default_class .mainContainer .img-text {
+        font-size: 22vw;
+        line-height: 85%;
+    }
+    .import-size-1-330x165 .upper-div .mainContainer img {
+        max-width: 76vw;
+    }
+    .import-size-1-330x165 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 83%;
+    }
+    .import-size-1-330x165_default_class .upper-div .mainContainer img {
+        max-width: 76vw;
+    }
+    .import-size-1-330x165_default_class .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 83%;
+    }
+    .import-size-3-303x152 .upper-div .mainContainer img {
+        max-width: 74vw;
+    }
+    .import-size-3-303x152 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 83%;
+    }
+    .import-size-3-303x152_default_class .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 83%;
+    }
+    .import-size-3-303x152_default_class .upper-div .mainContainer img {
+        max-width: 74vw;
+    }
+    .imported-7-character-408x87 .upper-div .mainContainer img {
+        max-width: 91vw;
+    }
+    .imported-7-character-408x87 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+    }
+    .imported-7-character-408x87_default_class .upper-div .mainContainer img {
+        max-width: 91vw;
+    }
+    .imported-7-character-408x87_default_class .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 100%;
+    }
+    .imported-7-character-226x156 .upper-div .mainContainer img {
+        max-width: 54vw;
+    }
+    .imported-7-character-226x156 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 81%;
+    }
+    .imported-7-character-226x156_default_class .upper-div .mainContainer img {
+        max-width: 54vw;
+    }
+    .imported-7-character-226x156_default_class .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 81%;
+    }
+    .imported-6-character-354x87 .upper-div .mainContainer img {
+        max-width: 79vw;
+    }
+    .imported-6-character-354x87 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+    }
+    .imported-6-character-354x87_default_class .upper-div .mainContainer img {
+        max-width: 79vw;
+    }
+    .imported-6-character-354x87_default_class .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 100%;
+    }
+    .imported-6-character-with-no-1-320x87 .upper-div .mainContainer img {
+        max-width: 75%;
+    }
+    .imported-6-character-with-no-1-320x87 .upper-div .mainContainer {
+        min-width: auto;
+    }
+    .imported-6-character-with-no-1-320x87 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+    }
+    .imported-6-character-with-no-1-320x87_default_class .mainContainer {
+        min-width: auto;
+    }
+    .imported-6-character-with-no-1-320x87_default_class .mainContainer img {
+        max-width: 73vw;
+    }
+    .imported-6-character-with-no-1-320x87_default_class .mainContainer .img-text {
+        font-size: 21vw;
+        min-height: auto;
+    }
+    .imported-5-or-6-character-172x156 .upper-div .mainContainer img {
+        max-width: 43vw;
+    }
+    .imported-5-or-6-character-172x156 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 85%;
+    }
+    .imported-5-or-6-character-172x156_default_class .upper-div .mainContainer img {
+        max-width: 43vw;
+    }
+    .imported-5-or-6-character-172x156_default_class .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+        line-height: 85%;
+    }
+    .imported-5-character-with-no-1-266x87 .upper-div .mainContainer {
+        min-width: auto;
+    }
+    .imported-5-character-with-no-1-266x87 .upper-div .mainContainer img {
+        max-width: 65%;
+    }
+    .imported-5-character-with-no-1-266x87 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+    }
+    .imported-5-character-with-no-1-266x87_default_class .mainContainer img {
+        max-width: 61vw;
+    }
+    .imported-5-character-with-no-1-266x87_default_class .mainContainer {
+        min-width: auto;
+    }
+    .imported-5-character-with-no-1-266x87_default_class .mainContainer .img-text {
+        font-size: 21vw;
+        min-height: auto;
+    }
+    .imported-5-character-300x87 .upper-div .mainContainer {
+        min-height: auto;
+    }
+    .imported-5-character-300x87 .upper-div .mainContainer img {
+        max-width: 67vw;
+    }
+    .imported-5-character-300x87 .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+    }
+    .imported-5-character-300x87_default_class .upper-div img {
+        max-width: 67vw;
+    }
+    .imported-5-character-300x87_default_class .upper-div .mainContainer .img-text {
+        font-size: 21vw;
+        min-height: auto;
+    }
+    .moto-7-character-228x164 .upper-div .mainContainer img {
+        max-width: 58vw;
+    }
+    .moto-7-character-228x164 .upper-div .mainContainer .img-text {
+        font-size: 23vw;
+        line-height: 85%;
+    }
+    .moto-7-character-228x164_default_class .upper-div .mainContainer img {
+        max-width: 58vw;
+    }
+    .moto-7-character-228x164_default_class .upper-div .mainContainer .img-text {
+        font-size: 23vw;
+        line-height: 85%;
+    }
+    .moto-7-character-with-no-1-194x164 .upper-div .mainContainer {
+        min-width: 250px;
+    }
+    .moto-7-character-with-no-1-194x164 .upper-div .mainContainer img {
+        max-width: 48vw;
+    }
+    .moto-7-character-with-no-1-194x164 .upper-div .mainContainer .img-text {
+        font-size: 23vw;
+        line-height: 85%;
+    }
+    .moto-7-character-with-no-1-194x164_default_class .upper-div .mainContainer {
+        min-width: 250px;
+    }
+    .moto-7-character-with-no-1-194x164_default_class .upper-div .mainContainer img {
+        max-width: 48vw;
+    }
+    .moto-7-character-with-no-1-194x164_default_class .upper-div .mainContainer .img-text {
+        font-size: 23vw;
+        line-height: 85%;
+    }
+    .moto-5-character-174x164 .upper-div .mainContainer img {
+        max-width: 43vw;
+    }
+    .moto-5-character-174x164 .upper-div .mainContainer .img-text {
+        font-size: 23vw;
+        line-height: 85%;
+    }
+    .moto-5-character-174x164_default_class .upper-div .mainContainer img {
+        max-width: 43vw;
+    }
+    .moto-5-character-174x164_default_class .upper-div .mainContainer .img-text {
+        font-size: 23vw;
+        line-height: 85%;
+    }
+    .profiled-motorcycle .mainContainer .img-text {
+        font-size: 23vw;
+    }
+    .profiled-5-character-174x164-profiled-1 .upper-div .mainContainer img {
+        max-width: 45vw;
+    }
+    .profiled-5-character-174x164-profiled-1 .upper-div .mainContainer .img-text {
+        font-size: 23vw;
+        line-height: 85%;
+    }
+    .profiled-5-character-174x164-profiled-1_default_class .upper-div .mainContainer img {
+        max-width: 45vw;
+    }
+    .profiled-5-character-174x164-profiled-1_default_class .upper-div .mainContainer .img-text {
+        font-size: 23vw;
+        line-height: 85%;
+    }
+    /*****************styleessss*************************/
+    .uk .style3d_gel .mainContainer .img-text,
+    .uk .style4d_3mm .mainContainer .img-text,
+    .uk .style4d_3mm_gel .mainContainer .img-text,
+    .uk .style4d_5mm .mainContainer .img-text,
+    .uk .style4d_5mm_gel .mainContainer .img-text {
+        top: 44%;
+    }
+    .uk .uk-7-character-255x199 .style3d_gel .img-text,
+    .uk .uk-7-character-255x199 .style4d_3mm .img-text,
+    .uk .uk-7-character-255x199 .style4d_3mm_gel .img-text,
+    .uk .uk-7-character-255x199 .style4d_5mm .img-text,
+    .uk .uk-7-character-255x199 .style4d_5mm_gel .img-text {
+        top: 47%;
+    }
+    .uk .uk-7-character-255x199_default_class .style3d_gel .img-text,
+    .uk .uk-7-character-255x199_default_class .style4d_3mm .img-text,
+    .uk .uk-7-character-255x199_default_class .style4d_3mm_gel .img-text,
+    .uk .uk-7-character-255x199_default_class .style4d_5mm .img-text,
+    .uk .uk-7-character-255x199_default_class .style4d_5mm_gel .img-text {
+        top: 47%;
+    }
+    .uk .uk-7-character-which-includes-a-No-1-424x101 .style3d_gel .img-text,
+    .uk .uk-7-character-which-includes-a-No-1-424x101 .style4d_3mm .img-text,
+    .uk .uk-7-character-which-includes-a-No-1-424x101 .style4d_3mm_gel .img-text,
+    .uk .uk-7-character-which-includes-a-No-1-424x101 .style4d_5mm .img-text,
+    .uk .uk-7-character-which-includes-a-No-1-424x101 .style4d_5mm_gel .img-text {
+        top: 42%;
+    }
+    .uk .uk-7-character-which-includes-a-No-1-424x101_default_class .style3d_gel .img-text,
+    .uk .uk-7-character-which-includes-a-No-1-424x101_default_class .style4d_3mm .img-text,
+    .uk .uk-7-character-which-includes-a-No-1-424x101_default_class .style4d_3mm_gel .img-text,
+    .uk .uk-7-character-which-includes-a-No-1-424x101_default_class .style4d_5mm .img-text,
+    .uk .uk-7-character-which-includes-a-No-1-424x101_default_class .style4d_5mm_gel .img-text {
+        top: 47%;
+    }
+    .uk .uk-7-character-which-includes-a-no-1-225x199 .style3d_gel .img-text,
+    .uk .uk-7-character-which-includes-a-no-1-225x199 .style4d_3mm .img-text,
+    .uk .uk-7-character-which-includes-a-no-1-225x199 .style4d_3mm_gel .img-text,
+    .uk .uk-7-character-which-includes-a-no-1-225x199 .style4d_5mm .img-text,
+    .uk .uk-7-character-which-includes-a-no-1-225x199 .style4d_5mm_gel .img-text {
+        top: 47%;
+    }
+    .uk .uk-7-character-which-includes-a-no-1-225x199_default_class .style3d_gel .img-text,
+    .uk .uk-7-character-which-includes-a-no-1-225x199_default_class .style4d_3mm .img-text,
+    .uk .uk-7-character-which-includes-a-no-1-225x199_default_class .style4d_3mm_gel .img-text,
+    .uk .uk-7-character-which-includes-a-no-1-225x199_default_class .style4d_5mm .img-text,
+    .uk .uk-7-character-which-includes-a-no-1-225x199_default_class .style4d_5mm_gel .img-text {
+        top: 47%;
+    }
+    .uk .uk-5-or-6-character-199x199 .style3d_gel .img-text,
+    .uk .uk-5-or-6-character-199x199 .style4d_3mm .img-text,
+    .uk .uk-5-or-6-character-199x199 .style4d_3mm_gel .img-text,
+    .uk .uk-5-or-6-character-199x199 .style4d_5mm .img-text,
+    .uk .uk-5-or-6-character-199x199 .style4d_5mm_gel .img-text {
+        top: 47%;
+    }
+    .uk .uk-5-or-6-character-199x199_default_class .style3d_gel .img-text,
+    .uk .uk-5-or-6-character-199x199_default_class .style4d_3mm .img-text,
+    .uk .uk-5-or-6-character-199x199_default_class .style4d_3mm_gel .img-text,
+    .uk .uk-5-or-6-character-199x199_default_class .style4d_5mm .img-text,
+    .uk .uk-5-or-6-character-199x199_default_class .style4d_5mm_gel .img-text {
+        top: 47%;
+    }
+    .imported .style3d_gel .mainContainer .img-text,
+    .imported .style4d_3mm .mainContainer .img-text,
+    .imported .style4d_3mm_gel .mainContainer .img-text,
+    .imported .style4d_5mm .mainContainer .img-text,
+    .imported .style4d_5mm_gel .mainContainer .img-text {
+        top: 46%;
+    }
+    .imported .imported-6-character-354x87 .style3d_gel .mainContainer .img-text,
+    .imported .imported-6-character-354x87 .style4d_3mm .mainContainer .img-text,
+    .imported .imported-6-character-354x87 .style4d_3mm_gel .mainContainer .img-text,
+    .imported .imported-6-character-354x87 .style4d_5mm .mainContainer .img-text,
+    .imported .imported-6-character-354x87 .style4d_5mm_gel .mainContainer .img-text {
+        top: 43%;
+    }
+    .imported .imported-6-character-354x87_default_class .style3d_gel .mainContainer .img-text,
+    .imported .imported-6-character-354x87_default_class .style4d_3mm .mainContainer .img-text,
+    .imported .imported-6-character-354x87_default_class .style4d_3mm_gel .mainContainer .img-text,
+    .imported .imported-6-character-354x87_default_class .style4d_5mm .mainContainer .img-text,
+    .imported .imported-6-character-354x87_default_class .style4d_5mm_gel .mainContainer .img-text {
+        top: 43%;
+    }
+    .imported .imported-7-character-408x87 .style3d_gel .mainContainer .img-text,
+    .imported .imported-7-character-408x87 .style4d_3mm .mainContainer .img-text,
+    .imported .imported-7-character-408x87 .style4d_3mm_gel .mainContainer .img-text,
+    .imported .imported-7-character-408x87 .style4d_5mm .mainContainer .img-text,
+    .imported .imported-7-character-408x87 .style4d_5mm_gel .mainContainer .img-text {
+        top: 43%;
+    }
+    .imported .imported-7-character-408x87_default_class .style3d_gel .mainContainer .img-text,
+    .imported .imported-7-character-408x87_default_class .style4d_3mm .mainContainer .img-text,
+    .imported .imported-7-character-408x87_default_class .style4d_3mm_gel .mainContainer .img-text,
+    .imported .imported-7-character-408x87_default_class .style4d_5mm .mainContainer .img-text,
+    .imported .imported-7-character-408x87_default_class .style4d_5mm_gel .mainContainer .img-text {
+        top: 43%;
+    }
+    .imported .imported-5-character-with-no-1-266x87 .style3d_gel .mainContainer .img-text,
+    .imported .imported-5-character-with-no-1-266x87 .style4d_3mm .mainContainer .img-text,
+    .imported .imported-5-character-with-no-1-266x87 .style4d_3mm_gel .mainContainer .img-text,
+    .imported .imported-5-character-with-no-1-266x87 .style4d_5mm .mainContainer .img-text,
+    .imported .imported-5-character-with-no-1-266x87 .style4d_5mm_gel .mainContainer .img-text {
+        top: 45%;
+    }
+    .imported .imported-5-character-with-no-1-266x87_default_class .style3d_gel .mainContainer .img-text,
+    .imported .imported-5-character-with-no-1-266x87_default_class .style4d_3mm .mainContainer .img-text,
+    .imported .imported-5-character-with-no-1-266x87_default_class .style4d_3mm_gel .mainContainer .img-text,
+    .imported .imported-5-character-with-no-1-266x87_default_class .style4d_5mm .mainContainer .img-text,
+    .imported .imported-5-character-with-no-1-266x87_default_class .style4d_5mm_gel .mainContainer .img-text {
+        top: 45%;
+    }
+    .imported .imported-5-character-300x87 .style3d_gel .mainContainer .img-text,
+    .imported .imported-5-character-300x87 .style4d_3mm .mainContainer .img-text,
+    .imported .imported-5-character-300x87 .style4d_3mm_gel .mainContainer .img-text,
+    .imported .imported-5-character-300x87 .style4d_5mm .mainContainer .img-text,
+    .imported .imported-5-character-300x87 .style4d_5mm_gel .mainContainer .img-text {
+        top: 45%;
+    }
+    .imported .imported-5-character-300x87_default_class .style3d_gel .mainContainer .img-text,
+    .imported .imported-5-character-300x87_default_class .style4d_3mm .mainContainer .img-text,
+    .imported .imported-5-character-300x87_default_class .style4d_3mm_gel .mainContainer .img-text,
+    .imported .imported-5-character-300x87_default_class .style4d_5mm .mainContainer .img-text,
+    .imported .imported-5-character-300x87_default_class .style4d_5mm_gel .mainContainer .img-text {
+        top: 45%;
+    }
+    .motorcycle .style3d_gel .mainContainer .img-text,
+    .motorcycle .style4d_3mm .mainContainer .img-text,
+    .motorcycle .style4d_3mm_gel .mainContainer .img-text,
+    .motorcycle .style4d_5mm .mainContainer .img-text,
+    .motorcycle .style4d_5mm_gel .mainContainer .img-text {
+        top: 47%;
+    }
+    .profiled .style3d_gel .mainContainer .img-text,
+    .profiled .style4d_3mm .mainContainer .img-text,
+    .profiled .style4d_3mm_gel .mainContainer .img-text,
+    .profiled .style4d_5mm .mainContainer .img-text,
+    .profiled .style4d_5mm_gel .mainContainer .img-text {
+        top: 47%;
+    }
+}
+
+@media screen and (min-device-width:650px) and (max-device-width: 767px) {
+    .uk-7-character-which-includes-a-No-1-424x101 .upper-div .mainContainer .img-text {
+        font-size: 19vw;
+    }
+    .uk-6-character-which-includes-a-No-1-363x101 .upper-div .mainContainer .img-text {
+        font-size: 20vw;
+    }
+}
+
+@media screen and (min-device-width:591px) and (max-device-width: 767px) {
+    .imported-6-character-with-no-1-320x87 .upper-div .mainContainer .img-text {
+        font-size: 20vw;
+    }
+}

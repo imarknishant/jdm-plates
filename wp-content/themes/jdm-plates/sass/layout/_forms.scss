@@ -1,0 +1,143 @@
+.ftr-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    .form-group {
+        margin: 0 40px 0 0px;
+        input {
+            padding: 0;
+            height: initial;
+            width: initial;
+            margin-bottom: 0;
+            display: none;
+            cursor: pointer;
+
+            &:checked + label::after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 4px;
+                left: 9px;
+                width: 6px;
+                height: 14px;
+                border: solid #000;
+                border-width: 0 2px 2px 0;
+                transform: rotate(45deg);
+
+                @include breakpoint(desktop) {
+                    top: 7px;
+                    left: 8px;
+                    width: 5px;
+                    height: 11px;
+                }
+            }
+        }
+        label {
+            position: relative;
+            font-weight: 500;
+            cursor: pointer;
+            color: $b;
+            font-size: 16px;
+
+            &::before {
+                content: "";
+                background-color: #fff;
+                border: 2px solid #707070;
+                box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+                padding: 10px;
+                display: inline-block;
+                position: relative;
+                vertical-align: middle;
+                cursor: pointer;
+                margin-right: 8px;
+                margin-top: -1px;
+
+                @include breakpoint(desktop) {
+                    padding: 8px;
+                }
+            }
+        }
+    }
+}
+
+.modal {
+    .modal-content {
+        padding: 50px 40px;
+        border-radius: 0;
+
+        @include breakpoint(desktop-small){
+            padding: 30px 40px;
+        }
+    }
+    background-color: rgba(0, 0, 0, 0.8);
+    .modal-header {
+        border-bottom: none;
+        margin: auto;
+        margin-bottom: 20px;
+        @include breakpoint(desktop-small){
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-weight: 600;
+        }
+    }
+    .modal-body {
+        form {
+            .form-group {
+                margin-bottom: 20px;
+                input.form-control {
+                    height: 60px;
+                    border: 1px solid #e6e6e6;
+                    font-size: 15px;
+                    padding: 0 20px;
+
+                    @include breakpoint(desktop-small){
+                        height: 52px;
+                        font-size: 14px;
+                    }
+                }
+                ::placeholder{
+                    color: $b;
+                }
+            }
+            .forgot {
+                text-align: right;
+                a {
+                    color: $b;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .modal-footer {
+        border-top: none;
+        display: block;
+        padding-top: 0;
+        .login-btns {
+            a {
+                margin-bottom: 20px;
+                width: 100%;
+                font-weight: 500;
+                @include breakpoint(desktop-small){
+                    margin-bottom: 15px;
+                }
+            }
+            .btn.btn-border{
+                background-color: $w;
+                color: #04d9ff;
+                border: 1px solid #04d9ff;
+            }
+        }
+    }
+}
+form {
+    .form-group {
+        input.form-control,
+        textarea {
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+}
